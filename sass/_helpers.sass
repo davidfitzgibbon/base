@@ -46,9 +46,8 @@
 	&:hover
 		text-decoration: underline
 
-@mixin island
-	padding: $gap
-	margin-bottom: $gap
+@mixin island($distance: $gap)
+	margin-bottom: $distance
 
 	> :last-child
 		margin-bottom: 0
