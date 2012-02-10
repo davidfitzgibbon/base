@@ -1,0 +1,30 @@
+body
+	width: 100%
+
+body::after
+	color: black
+	content: '0 - 479px'
+	position: fixed
+	bottom: 0
+	text-align: center
+	width: 100%
+	height: 42px
+	background: lightgreen
+	clear: both
+	overflow: auto
+	line-height: 42px
+	font-size: 30px
+	font-family: sans-serif
+	font-weight: bold
+
+	@media (min-width: 480px)
+		content: '480px - 699px'
+		background: red 
+
+	@media (min-width: 700px)
+		content: '700px - 959px'
+		background: lightblue
+
+	@media (min-width: 960px)
+		content: '960px - more'
+		background: orange
