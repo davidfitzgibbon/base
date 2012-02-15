@@ -1,11 +1,25 @@
 /* COLORS */
 
 /* FONT SETTINGS */
-$fs: 14px
-$lh: 18px
+$fs: 16px
+$lh: 24px
 $gap: $lh
 
 @import 'includes'
 	
 @mixin sans
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+*
+	@include border-box
+
+#container
+	@include container
+	@include sans
+	font-size: $fs
+	line-height: $lh
+	padding: $lh $fs
+
+	h1
+		font-size: em(24px)
+		line-height: $lh*2
