@@ -52,13 +52,13 @@
 	> :last-child
 		margin-bottom: 0
 
+.island
+	+island
+
 @mixin border-box
 	-moz-box-sizing: border-box
 	webkit-box-sizing: border-box
 	box-sizing: border-box
-
-.island
-	@include island
 
 .left
 	float: left
@@ -73,19 +73,19 @@ em
 	font-weight: bold
 
 .three
-	@include container
+	+container
 
 .two
-	@include columns(2)
+	+columns(2)
 
 .one
-	@include columns(1)
+	+columns(1)
 
 .last
 	margin-right: 0
 
 .honey
-	@include visuallyhidden
+	+visuallyhidden
 
 label, input[type="submit"]
 	cursor: pointer
