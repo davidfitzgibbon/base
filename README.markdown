@@ -33,3 +33,6 @@ A simple file to show you what media query you're currently viewing. Remove/comm
 
 A simple file that puts a grid behind the #container so you can see your font-size/line-height grid boxes
 
+## Facebook
+
+You might also want to have a look at [Facebook Base](https://github.com/davidfitzgibbon/facebook-base) for some basic setup for Facebook Apps too.
