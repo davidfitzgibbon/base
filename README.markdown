@@ -1,9 +1,9 @@
 # BASE
 _NOTE: you must have Compass and Susy installed to take advantage of the SASS helpers_. You can simply remove the sass folder and config.rb file, but then you'll have to write ordinary CSS... and who wants that?!
 
-## This is a simple basic setup for creating a HTML and SASS site
+** This is a simple basic setup for creating a HTML and SASS site **
 
-# WIDTH AND HEIGHT
+## WIDTH AND HEIGHT
 
 ALL widths and heights, including line heights, should be set relative to the font size ($fs) or the line-height ($lh) if possible. This is especially applicable to media queries. If you leave the background grid on, you'll be able to see how wide/high your elements are in relation to the $fs (width) and $lh (hight). As you test your code in different sizes, you can all breakpoints on your elements using these grid blocks.
 
