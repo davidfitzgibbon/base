@@ -1,7 +1,8 @@
 # BASE
-_NOTE: you must have Compass and Susy installed to take advantage of the SASS helpers_. You can simply remove the sass folder and config.rb file, but then you'll have to write ordinary CSS... and who wants that?!
 
-** This is a simple basic setup for creating a HTML and SASS site **
+A simple basic setup for creating a HTML and SASS site
+
+_NOTE: you must have Compass and Susy installed to take advantage of the SASS helpers_. You can simply remove the sass folder and config.rb file, but then you'll have to write ordinary CSS... and who wants that?!
 
 ## WIDTH AND HEIGHT
 
