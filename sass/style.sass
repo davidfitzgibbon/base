@@ -1,4 +1,6 @@
 /* COLORS */
+$background: #f9f9f9
+$text: #333
 
 /* FONT SETTINGS */
 $fs: 16px
@@ -11,7 +13,11 @@ $gap: $lh
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 
 *
-	+border-box
+	+border-box // This'll change the box model so everything is contained within it: http://paulirish.com/2012/box-sizing-border-box-ftw/
+
+body
+	background-color: $background
+	color: $text
 
 #container
 	+container
@@ -23,3 +29,7 @@ $gap: $lh
 	h1
 		font-size: em(24px)
 		line-height: $lh*2
+		margin-bottom: $lh
+
+	p 
+		margin-bottom: $lh
