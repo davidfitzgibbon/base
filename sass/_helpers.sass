@@ -5,6 +5,14 @@
 		@return 0
 	@return $target / $context + 0em
 
+
+/* REM CALCULATOR - Chris Coyer - http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/ */
+/* MAKE SURE TO SET YOUR BASE FONT SIZE TO 10PX!!!! */
+/*EXPERIMENTAL, NOT WORKING */
+@mixin font-size($sizeValue: 1.6)
+	font-size: ($sizeValue * 10) + px
+	font-size: $sizeValue + rem
+
 /* BOILERPLATE HELPERS */
 @mixin hidden
 	display: none !important
@@ -71,15 +79,6 @@
 
 em
 	font-weight: bold
-
-.three
-	+container
-
-.two
-	+columns(2)
-
-.one
-	+columns(1)
 
 .last
 	margin-right: 0
