@@ -2,6 +2,11 @@
 
 A simple basic setup for creating a HTML and SASS site
 
+## Help!
+I'm trying to make this framework a little more professional. if anyone out there is actually using it please feel free to fork. I'm also planning on removing Susy because I'm not using it and it's just for the wrapper at this point, which I'm not suing much with responsive designs!
+
+Any and all help, tips, thoughts, advice, muffins and opinions welcome (muffins especially)!
+
 _NOTE: you must have Compass and Susy installed to take advantage of the SASS helpers_. You can simply remove the sass folder and config.rb file, but then you'll have to write ordinary CSS... and who wants that?!
 
 ## WIDTH AND HEIGHT
