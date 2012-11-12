@@ -12,6 +12,7 @@
 @mixin font-size($sizeValue: 1.6)
 	font-size: ($sizeValue * 10) + px
 	font-size: $sizeValue + rem
+/* END BROKEN REM CALCULATOR */
 
 /* BOILERPLATE HELPERS */
 @mixin hidden
@@ -54,7 +55,7 @@
 	&:hover
 		text-decoration: underline
 
-@mixin island($distance: $gap)
+@mixin island($distance: $lh)
 	margin-bottom: $distance
 
 	> :last-child
