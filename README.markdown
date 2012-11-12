@@ -3,7 +3,7 @@
 A simple basic setup for creating a HTML and SASS site
 
 ## Help!
-I'm trying to make this framework a little more professional. if anyone out there is actually using it please feel free to fork. I'm also planning on removing Susy because I'm not using it and it's just for the wrapper at this point, which I'm not suing much with responsive designs!
+I'm trying to make this framework a little more professional. if anyone out there is actually using it please feel free to fork. 
 
 Any and all help, tips, thoughts, advice, muffins and opinions welcome (muffins especially)!
 
@@ -17,10 +17,6 @@ For example if your element needs to change layout when it's bigger than 10 grid
 
 @media (min-width: $fs*10)
 	background: white
-
-### base.sass
-
-Susy config file. The width of the columns is bases on the font size ($fs)
 
 ### helpers.sass
 
