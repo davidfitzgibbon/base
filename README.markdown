@@ -7,7 +7,7 @@ I'm trying to make this framework a little more professional. if anyone out ther
 
 Any and all help, tips, thoughts, advice, muffins and opinions welcome (muffins especially)!
 
-_NOTE: you must have Compass installed to take advantage of the SASS helpers_. You can simply remove the sass folder and config.rb file, but then you'll have to write ordinary CSS... and who wants that?!
+_NOTE: you must have Compass installed to take advantage of the SASS helpers_. If you want to write plain CSS you can simply remove the sass folder and config.rb file, but then you'll have to write plain CSS... and who wants that?!
 
 ## WIDTH AND HEIGHT
 
