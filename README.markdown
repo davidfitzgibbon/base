@@ -5,6 +5,8 @@ A simple basic setup for creating a HTML and SASS site
 ## Help!
 I'm trying to make this framework a little more professional. if anyone out there is actually using it please feel free to fork. 
 
+Big upgrade coming soon. Going to try and get rid of as much random crap as possible, only keep what I actually use and implement a simple grid system like Foldy960.
+
 Any and all help, tips, thoughts, advice, muffins and opinions welcome (muffins especially)!
 
 _NOTE: you must have Compass installed to take advantage of the SASS helpers_. If you want to write plain CSS you can simply remove the sass folder and config.rb file, but then you'll have to write plain CSS... and who wants that?!
