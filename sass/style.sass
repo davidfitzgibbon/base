@@ -23,6 +23,9 @@ $lh: 24px
 @-o-viewport
 	width: device-width
 
+html
+	font-size: 62.5%
+
 body
 	background-color: $background
 	color: $text 
@@ -32,12 +35,12 @@ body
 	max-width: 100%
 	margin: 0 auto
 	+sans
-	font-size: $fs
+	+fs(16) 
 	line-height: $lh
 	padding: $lh $fs
 
 	h1
-		font-size: em(24px)
+		+fs(24)
 		line-height: $lh*2
 		margin-bottom: $lh
 
