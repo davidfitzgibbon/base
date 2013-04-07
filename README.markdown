@@ -2,13 +2,6 @@
 
 A simple basic setup for creating a HTML and SASS site
 
-## Help!
-I'm trying to make this framework a little more professional. if anyone out there is actually using it please feel free to fork. 
-
-Big upgrade coming soon. Going to try and get rid of as much random crap as possible, only keep what I actually use and implement a simple grid system like Foldy960.
-
-Any and all help, tips, thoughts, advice, muffins and opinions welcome (muffins especially)!
-
 _NOTE: you must have Compass installed to take advantage of the SASS helpers_. If you want to write plain CSS you can simply remove the sass folder and config.rb file, but then you'll have to write plain CSS... and who wants that?!
 
 ## WIDTH AND HEIGHT
@@ -24,9 +17,9 @@ For example if your element needs to change layout when it's bigger than 10 grid
 
 There are some basic takings from the HTML5 boilerplate, Harry Roberts blog and a few simple helpers of my own for SASS.
 
-### includes.sass
+### grids.sass
 
-The file where everything is included. Comment out or delete files you do not want to show from this file.
+Not so much a grid framework, more an ideology for creating your own grids.
 
 ### queries.sass
 
@@ -34,8 +27,13 @@ A simple file to show you what media query you're currently viewing. Remove/comm
 
 ### show_grid.sass
 
-A simple file that puts a grid behind the #container so you can see your font-size/line-height grid boxes
+A simple file that puts a grid behind the #container so you can see your font-size/line-height grid boxes.
 
-## Facebook
+### includes.sass
 
-You might also want to have a look at [Facebook Base](https://github.com/davidfitzgibbon/facebook-base) for some basic setup for Facebook Apps too.
+The file where everything is included. Comment out or delete files you do not want to show from this file.
+
+## Help!
+I'm trying to make this framework a little more professional. If anyone out there is actually using it please feel free to fork and submit pull requests.
+
+Any and all help, tips, thoughts, advice, muffins and opinions welcome (muffins especially)!

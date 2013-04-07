@@ -52,12 +52,12 @@
 	&:hover
 		text-decoration: underline
 
+/* based on Harry Roberts island object: http://csswizardry.com/2011/10/the-island-object/ */
 @mixin island($distance: $lh)
 	margin-bottom: $distance
 
 	> :last-child
 		margin-bottom: 0
-
 .island
 	+island
 
@@ -72,14 +72,8 @@
 .right
 	float: right
 
-.clear
-	+clearfix
-
 em
 	font-weight: bold
-
-.last
-	margin-right: 0
 
 .honey
 	+visuallyhidden
