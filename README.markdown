@@ -1,3 +1,5 @@
+# ! no longer supported !
+
 # BASE
 
 A simple basic setup for creating a HTML and SASS site
